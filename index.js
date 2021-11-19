@@ -12,7 +12,7 @@ const adminRouter = require("./Routes/AdminRoutes");
 
 const session = require("express-session");
 
-dotenv.config({ path: "./config.env" });
+dotenv.config({ path: "./Config/config.env" });
 
 const app = express();
 
